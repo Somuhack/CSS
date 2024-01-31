@@ -1,0 +1,188 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-bar{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(237, 240, 242);
+    padding: 20px 0px;
+    font-weight: 600;
+    border-bottom:2px solid gainsboro ;
+}
+.navbar{
+    
+    display: flex;
+    width: 100%;
+    background-color: rgb(244, 246, 247);
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.airbnb{
+   display: flex;
+   color: #ff385c;
+   width: 100%;
+   padding-top: 100px;
+   padding-left: 20px;
+   
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 0px;
+
+}
+.side-menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+.btn{
+    border: 2px solid rgb(166, 171, 171);
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    margin-right: 40px;
+    height: 35px;
+    padding:10px ;
+    align-items: center;
+}
+.profile{
+   height: 20px; 
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+  
+}
+.search{
+    
+    border: 2px solid rgb(201, 200, 200);
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 30rem;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.bar{
+    width: 100%;
+    background-color: rgb(244, 246, 247);
+    height: 150px;
+    border-bottom:2px solid gainsboro ;
+}
+.btn-2{
+   
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-right: 1px solid grey;
+    padding-right: 20px;
+
+
+}
+.btn-4{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 5PX auto;
+ 
+}
+.btn-1{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right: 1px solid grey;
+    padding-right: 30px;
+    
+
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    position: sticky;
+}
+.menu-img{
+    
+    width: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+.decoration{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.filter{
+   margin-top: 30px;
+   display:flex; 
+   justify-content:space-between;
+   border-radius: 20px;
+   border: 1px solid rgb(122, 122, 125);
+   padding: 5px;
+}
+.parent-box{
+    width: 400px;
+    margin: 30px auto;
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: relative;
+    
+    
+}
+.img{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+    
+}
+.des{
+    font-size: 15px;
+    color: gray;
+    padding: 20px;
+} 
+/* } git config --global user.email "you@example.com"
+git config --global user.name "Your Name" */
+.top-love{
+    color: rgb(255, 255, 255);
+    width: 5px;
+    position: absolute;
+    border-radius: 2px;
+    top: 28px;
+    right: 20px;
+    padding: 1px 2px;
+    color: #ffffff56;
+    font-size: 15px;
+}
+.des-h{
+    font-size: 15px;
+    padding-left: 20px;
+}
+    
+.fl{
+  display: flex;
+  justify-content: space-evenly;
+  gap:10px;
+  flex-wrap: wrap;
+}
